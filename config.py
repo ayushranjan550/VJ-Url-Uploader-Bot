@@ -21,8 +21,8 @@ class Config(object):
     TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "Tokenwalajibot") # Bot username without @.
     
     # The Telegram API things
-    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "25192495"))
-    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "c5c3c59a17113129c7bb0cab2f7ba501")
+    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "20995237"))
+    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "c7c628866601f5fd526dc1aac0952dbd")
     
     # the download location, where the HTTP Server runs
     TECH_VJ_DOWNLOAD_LOCATION = "./DOWNLOADS"
